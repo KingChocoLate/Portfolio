@@ -29,7 +29,8 @@ export const projects = [
   {
     title: 'NearMe Social',
     subtitle: 'Project Lead / Full-Stack Academic Project',
-    period: '2025 - Present',
+    period: '2026 - Present',
+    link: 'https://nmsfrontend.vercel.app/',
     description:
       'Led a 7-member team to build a location-based social web app, focusing on system planning, backend structure, database design, Docker setup, and admin features.',
     points: [
@@ -80,6 +81,10 @@ export const skillGroups = [
   {
     title: 'Database & DevOps',
     skills: ['PostgreSQL', 'MySQL/MariaDB', 'TypeORM', 'Linux', 'Docker', 'Kubernetes basics', 'Jenkins basics', 'GitHub Actions', 'Git/GitHub']
+  },
+  {
+  title: 'Languages',
+  skills: ['Khmer - Mother Tongue', 'English - Academic, technical and daily communication']
   }
 ]
 

@@ -34,6 +34,16 @@ defineProps({
           <div class="tag-row">
             <span v-for="tech in project.stack" :key="tech">{{ tech }}</span>
           </div>
+          <div v-if="project.link" class="project-actions">
+            <a
+              class="btn secondary"
+              :href="project.link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View project
+            </a>
+          </div>
         </article>
       </div>
     </div>

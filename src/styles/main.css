@@ -220,6 +220,7 @@ h3 {
   width: 100%;
   aspect-ratio: 1 / 1.08;
   object-fit: cover;
+  object-position: center top;
   border-radius: 22px;
   margin-bottom: 20px;
 }
@@ -333,6 +334,10 @@ h3 {
   margin: 0 0 18px;
   padding-left: 20px;
   color: var(--muted);
+}
+
+.project-actions {
+  margin-top: 20px;
 }
 
 .skill-card h3 {
