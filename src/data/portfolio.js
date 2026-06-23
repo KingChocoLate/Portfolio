@@ -1,97 +1,169 @@
 export const profile = {
   name: 'Sophat Odom',
-  role: 'Computer Science Student',
-  headline: 'Practical AI, computer vision, robotics, and reliable software systems.',
+
+  role: 'Year 4 Computer Science Student',
+
+  headline:
+    'Practical AI, computer vision, robotics, automation, and reliable software systems.',
+
   location: 'Phnom Penh, Cambodia',
+
   email: 'sophatodom.88@gmail.com',
+
   phone: '012 409 331',
+
   summary:
-    'Year 4 Computer Science student at the Institute of Technology of Cambodia. I am building my AI foundation through Python and machine learning while strengthening my skills in backend development, databases, mobile apps, Linux/DevOps, and team projects. I am eager to learn from real engineering work and contribute carefully to useful AI solutions.',
-  quickFacts: ['Year 4 CS Student', 'AI & Computer Vision Interest', 'Project Lead Experience', 'Backend & DevOps Foundation']
+    'Year 4 Computer Science student at the Institute of Technology of Cambodia with strong interest in practical AI, computer vision, robotics, and automation. I am building my AI foundation through Python, PyTorch, and machine learning theory, supported by hands-on experience in backend systems, databases, DevOps, and team projects.',
+
+  quickFacts: [
+    'Year 4 CS Student',
+    'AI & Computer Vision Focus',
+    'PyTorch Self-Learning',
+    'Backend & DevOps Foundation'
+  ]
 }
 
 export const focusAreas = [
   {
     title: 'AI & Computer Vision',
-    text: 'Currently building my foundation in Python, machine learning, data handling, and computer vision concepts.'
-  },
-  {
-    title: 'Software Systems',
-    text: 'Interested in how frontend, backend, database, deployment, and users connect in one real product.'
+    text:
+      'Building my AI foundation through Python, PyTorch, machine learning concepts, and an in-progress small computer vision project.'
   },
   {
     title: 'Robotics & Automation',
-    text: 'Motivated to learn how intelligent software can support automation and practical engineering systems.'
+    text:
+      'Interested in learning how AI and software can support practical engineering, automation, and robotics-related systems.'
+  },
+  {
+    title: 'Software Systems',
+    text:
+      'Experienced with backend systems, databases, APIs, deployment, troubleshooting, and team-based academic projects.'
   }
 ]
 
 export const projects = [
+  {
+    title: 'AI Computer Vision Mini Project',
+    subtitle: 'Ongoing / PyTorch Self-Learning',
+    period: '2026 - Ongoing',
+    description:
+      'An in-progress PyTorch-based computer vision mini project created to apply my AI learning in a more practical way. The project focuses on image classification workflow and understanding how models learn from visual data.',
+    points: [
+      'Practicing dataset preparation, image preprocessing, training loop setup, loss function, optimizer, model evaluation, and basic prediction testing.',
+      'Built as a small practical step toward AI use cases related to robotics, automation, and visual recognition systems.'
+    ],
+    stack: ['Python', 'PyTorch', 'torchvision', 'Computer Vision', 'Google Colab']
+  },
+
   {
     title: 'NearMe Social',
     subtitle: 'Project Lead / Full-Stack Academic Project',
     period: '2026 - Present',
     link: 'https://nmsfrontend.vercel.app/',
     description:
-      'Led a 7-member team to build a location-based social web app, focusing on system planning, backend structure, database design, Docker setup, and admin features.',
+      'Developed a location-based social web app using Vue 3, NestJS, PostgreSQL, JWT, REST APIs, and Docker.',
     points: [
-      'Worked with NestJS, PostgreSQL, TypeORM, JWT, Vue 3, REST APIs, and deployment.',
-      'Improved task division, troubleshooting, teamwork, and technical explanation.'
+      'Led a 7-member team and contributed to backend structure, database design, admin features, deployment, and overall system flow.',
+      'Improved teamwork, task coordination, troubleshooting, and technical explanation through a real academic team project.'
     ],
-    stack: ['Vue 3', 'NestJS', 'PostgreSQL', 'TypeORM', 'Docker', 'JWT']
+    stack: ['Vue 3', 'NestJS', 'PostgreSQL', 'JWT', 'REST API', 'Docker']
   },
+
   {
     title: 'DevOps & System Administration Practice',
     subtitle: 'Academic Coursework',
     period: '2025 - Present',
     description:
-      'Practiced Linux service setup, database configuration, web/FTP server setup, Docker, Kubernetes, Jenkins, and GitHub Actions.',
+      'Practiced Linux service setup, database/web/FTP configuration, Docker, Kubernetes basics, Jenkins basics, GitHub Actions, and remote access testing.',
     points: [
-      'Built a foundation in deployment, containerization, remote access testing, and troubleshooting.',
-      'Learned why reliable infrastructure matters for real software and automation systems.'
+      'Gained hands-on experience in deployment, containerization, troubleshooting, and maintaining software systems.',
+      'Learned how infrastructure, environment setup, and reliable deployment support real software projects.'
     ],
-    stack: ['Linux', 'Docker', 'Kubernetes', 'Jenkins', 'GitHub Actions', 'MySQL']
-  },
-  {
-    title: 'SafeReach App',
-    subtitle: 'Core Navigation & State Management',
-    period: '2026',
-    description:
-      'Worked on splash screen, onboarding, home, settings, routing, and app state management using Flutter.',
-    points: [
-      'Practiced asynchronous loading, user preference handling, and clean navigation flow.',
-      'Improved my understanding of maintainable mobile app structure.'
-    ],
-    stack: ['Flutter', 'Dart', 'GoRouter', 'State Management']
+    stack: ['Linux', 'Docker', 'Kubernetes basics', 'Jenkins basics', 'GitHub Actions', 'MySQL']
   }
 ]
 
 export const skillGroups = [
   {
-    title: 'Programming',
-    skills: ['Python', 'Java', 'JavaScript/TypeScript', 'Dart', 'SQL']
-  },
-  {
     title: 'AI & Data',
-    skills: ['Machine learning basics', 'Python for AI', 'Data handling concepts', 'Computer vision interest']
+    skills: [
+      'Python',
+      'PyTorch',
+      'Machine learning fundamentals',
+      'Basic deep learning concepts',
+      'Data preprocessing',
+      'Model training/evaluation',
+      'Computer vision basics'
+    ]
   },
   {
-    title: 'Web & Mobile',
-    skills: ['Vue 3', 'NestJS', 'Spring Boot', 'REST API', 'JWT', 'Flutter', 'GoRouter']
+    title: 'Frameworks & Development',
+    skills: [
+      'Vue 3',
+      'NestJS',
+      'Spring Boot',
+      'Flutter',
+      'REST API',
+      'JWT',
+      'GoRouter'
+    ]
   },
   {
-    title: 'Database & DevOps',
-    skills: ['PostgreSQL', 'MySQL/MariaDB', 'TypeORM', 'Linux', 'Docker', 'Kubernetes basics', 'Jenkins basics', 'GitHub Actions', 'Git/GitHub']
+    title: 'Tools & Infrastructure',
+    skills: [
+      'PostgreSQL',
+      'MySQL/MariaDB',
+      'TypeORM',
+      'Linux',
+      'Docker',
+      'Kubernetes basics',
+      'Jenkins basics',
+      'GitHub Actions',
+      'Git/GitHub',
+      'Postman'
+    ]
   },
   {
-  title: 'Languages',
-  skills: ['Khmer - Mother Tongue', 'English - Academic, technical and daily communication']
+    title: 'Soft Skills',
+    skills: [
+      'Team leadership',
+      'Problem-solving',
+      'Technical explanation',
+      'Task coordination',
+      'Careful troubleshooting',
+      'Quick learning',
+      'Willingness to learn from real engineering work'
+    ]
+  },
+  {
+    title: 'Languages',
+    skills: [
+      'Khmer - Mother Tongue',
+      'English - Advanced',
+      'French - Basics'
+    ]
   }
 ]
 
 export const education = {
-  degree: 'Bachelor’s Degree in Computer Science',
+  degree: 'Engineering Degree of Information and Communication',
+
   school: 'Institute of Technology of Cambodia',
+
   period: '2023 - Present',
+
   status: 'Year 4 Student',
-  courses: ['Artificial Intelligence', 'Machine Learning Foundation', 'Database Systems', 'Web Development', 'Mobile Development', 'DevOps', 'System Administration', 'Software Engineering', 'HCI', 'Distributed Systems']
+
+  expectedGraduation: '2027',
+
+  gpa: '4.0',
+
+  courses: [
+    'Database Systems',
+    'Software Engineering',
+    'DevOps',
+    'System Administration',
+    'Web Development',
+    'Distributed Systems'
+  ]
 }
